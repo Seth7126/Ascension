@@ -1,0 +1,32 @@
+package androidx.core.net;
+
+import android.content.Intent;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
+import android.os.Build.VERSION;
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
+
+public final class ConnectivityManagerCompat {
+    @Retention(RetentionPolicy.SOURCE)
+    public @interface RestrictBackgroundStatus {
+    }
+
+    public static final int RESTRICT_BACKGROUND_STATUS_DISABLED = 1;
+    public static final int RESTRICT_BACKGROUND_STATUS_ENABLED = 3;
+    public static final int RESTRICT_BACKGROUND_STATUS_WHITELISTED = 2;
+
+    public static NetworkInfo getNetworkInfoFromBroadcast(ConnectivityManager connectivityManager0, Intent intent0) {
+        NetworkInfo networkInfo0 = (NetworkInfo)intent0.getParcelableExtra("networkInfo");
+        return networkInfo0 == null ? null : connectivityManager0.getNetworkInfo(networkInfo0.getType());
+    }
+
+    public static int getRestrictBackgroundStatus(ConnectivityManager connectivityManager0) {
+        return Build.VERSION.SDK_INT < 24 ? 3 : connectivityManager0.getRestrictBackgroundStatus();
+    }
+
+    public static boolean isActiveNetworkMetered(ConnectivityManager connectivityManager0) {
+        return connectivityManager0.isActiveNetworkMetered();
+    }
+}
+

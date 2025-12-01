@@ -1,0 +1,5 @@
+// 函数: snprintf
+// 地址: 0xb52e8
+// 来自: E:/torrent/Cursor/com.playdekgames.android.Ascension_2.4.17-APK_Award-Mod/lib/armeabi-v7a/libAscensionLib.so.bndb
+
+return snprintf(str, size, format) __tailcall

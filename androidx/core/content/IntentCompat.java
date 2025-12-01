@@ -1,0 +1,16 @@
+package androidx.core.content;
+
+import android.content.Intent;
+
+public final class IntentCompat {
+    public static final String ACTION_CREATE_REMINDER = "android.intent.action.CREATE_REMINDER";
+    public static final String CATEGORY_LEANBACK_LAUNCHER = "android.intent.category.LEANBACK_LAUNCHER";
+    public static final String EXTRA_HTML_TEXT = "android.intent.extra.HTML_TEXT";
+    public static final String EXTRA_START_PLAYBACK = "android.intent.extra.START_PLAYBACK";
+    public static final String EXTRA_TIME = "android.intent.extra.TIME";
+
+    public static Intent makeMainSelectorActivity(String s, String s1) {
+        return Intent.makeMainSelectorActivity(s, s1);
+    }
+}
+

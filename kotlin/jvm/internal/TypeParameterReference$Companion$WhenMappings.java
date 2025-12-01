@@ -1,0 +1,18 @@
+package kotlin.jvm.internal;
+
+import kotlin.Metadata;
+import kotlin.reflect.KVariance;
+
+@Metadata(k = 3, mv = {1, 5, 1})
+public final class TypeParameterReference.Companion.WhenMappings {
+    public static final int[] $EnumSwitchMapping$0;
+
+    static {
+        int[] arr_v = new int[KVariance.values().length];
+        TypeParameterReference.Companion.WhenMappings.$EnumSwitchMapping$0 = arr_v;
+        arr_v[KVariance.INVARIANT.ordinal()] = 1;
+        arr_v[KVariance.IN.ordinal()] = 2;
+        arr_v[KVariance.OUT.ordinal()] = 3;
+    }
+}
+

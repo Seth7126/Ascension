@@ -1,0 +1,72 @@
+// 函数: _ZN14ascensionrules39CStateProcessAcquireAllCenterRowPortalsC1EPN9ascension7CPlayerE
+// 地址: 0x161900
+// 来自: E:/torrent/Cursor/com.playdekgames.android.Ascension_2.4.17-APK_Award-Mod/lib/armeabi-v7a/libAscensionLib.so.bndb
+
+int32_t entry_r1
+*(CGameStateOptions::CGameStateOptions(arg1.b) + 0x24c) = entry_r1
+*arg1 = _vtable_for_ascensionrules::CStateProcessAcquireAllCenterRowPortals + 8
+*(arg1 + 0x250) = 0
+*(arg1 + 0x278) = _vtable_for_ascension::CEventEnterCenterRow + 8
+*(arg1 + 0x27c) = 0x11
+*(arg1 + 0x280) = 0
+*(arg1 + 0x2c4) = 0
+*(arg1 + 0x2c8) = 0
+*(arg1 + 0x2cc) = 0xffffffff
+*(arg1 + 0x2d0) = 0
+*(arg1 + 0x2d4) = 0
+*(arg1 + 0x2d8) = 0
+*(arg1 + 0x2fc) = _vtable_for_ascension::CEventEnterCenterRow + 8
+*(arg1 + 0x300) = 0x11
+*(arg1 + 0x304) = 0
+*(arg1 + 0x348) = 0
+*(arg1 + 0x34c) = 0
+*(arg1 + 0x350) = 0xffffffff
+*(arg1 + 0x354) = 0
+*(arg1 + 0x358) = 0
+*(arg1 + 0x35c) = 0
+*(arg1 + 0x380) = _vtable_for_ascension::CEventEnterCenterRow + 8
+*(arg1 + 0x384) = 0x11
+*(arg1 + 0x388) = 0
+*(arg1 + 0x3cc) = 0
+*(arg1 + 0x3d0) = 0
+*(arg1 + 0x3d4) = 0xffffffff
+*(arg1 + 0x3d8) = 0
+*(arg1 + 0x3dc) = 0
+*(arg1 + 0x3e0) = 0
+*(arg1 + 0x404) = _vtable_for_ascension::CEventEnterCenterRow + 8
+*(arg1 + 0x408) = 0x11
+*(arg1 + 0x40c) = 0
+*(arg1 + 0x450) = 0
+*(arg1 + 0x454) = 0
+*(arg1 + 0x458) = 0xffffffff
+*(arg1 + 0x45c) = 0
+*(arg1 + 0x460) = 0
+*(arg1 + 0x464) = 0
+*(arg1 + 0x488) = _vtable_for_ascension::CEventEnterCenterRow + 8
+*(arg1 + 0x48c) = 0x11
+*(arg1 + 0x490) = 0
+*(arg1 + 0x4d4) = 0
+*(arg1 + 0x4d8) = 0
+*(arg1 + 0x4dc) = 0xffffffff
+*(arg1 + 0x4e0) = 0
+*(arg1 + 0x4e4) = 0
+*(arg1 + 0x4e8) = 0
+*(arg1 + 0x50c) = _vtable_for_ascension::CEventEnterCenterRow + 8
+*(arg1 + 0x510) = 0x11
+*(arg1 + 0x514) = 0
+*(arg1 + 0x558) = 0
+*(arg1 + 0x55c) = 0
+*(arg1 + 0x560) = 0xffffffff
+*(arg1 + 0x564) = 0
+*(arg1 + 0x568) = 0
+*(arg1 + 0x56c) = 0
+*(arg1 + 0x590) = _vtable_for_ascension::CEventEnterCenterRow + 8
+*(arg1 + 0x594) = 0x11
+*(arg1 + 0x598) = 0
+*(arg1 + 0x5dc) = 0
+*(arg1 + 0x5e0) = 0
+*(arg1 + 0x5e4) = 0xffffffff
+*(arg1 + 0x5e8) = 0
+*(arg1 + 0x5ec) = 0
+*(arg1 + 0x5f0) = 0
+__aeabi_memclr4(arg1 + 0x254, 0x23)

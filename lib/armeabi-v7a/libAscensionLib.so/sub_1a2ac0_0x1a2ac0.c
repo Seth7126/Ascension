@@ -1,0 +1,22 @@
+// 函数: sub_1a2ac0
+// 地址: 0x1a2ac0
+// 来自: E:/torrent/Cursor/com.playdekgames.android.Ascension_2.4.17-APK_Award-Mod/lib/armeabi-v7a/libAscensionLib.so.bndb
+
+int32_t r0 = *__stack_chk_guard
+void* r6 = arg1[1]
+sub_19e536(*arg1, 0x28)
+int32_t r2 = *(r6 + 8)
+struct (anonymous namespace)::Node::(anonymous namespace)::ParameterPackExpansion::VTable* const 
+    var_28 =
+    &_vtable_for_(anonymous namespace)::ParameterPackExpansion{for `(anonymous namespace)::Node'}
+int32_t var_24 = 0x101011d
+int32_t var_20 = r2
+sub_19e510(&var_28, *arg1)
+sub_19e536(*arg1, 0x29)
+int32_t r1_1 = *__stack_chk_guard
+
+if (r1_1 == r0)
+    return r1_1 - r0
+
+__stack_chk_fail()
+noreturn

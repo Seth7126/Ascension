@@ -1,0 +1,27 @@
+package androidx.compose.runtime.tooling;
+
+import java.util.Set;
+import kotlin.Metadata;
+import kotlin.jvm.functions.Function0;
+import kotlin.jvm.internal.Lambda;
+
+@Metadata(d1 = {"\u0000\n\n\u0002\u0010#\n\u0002\u0018\u0002\n\u0000\u0010\u0002\u001A\n\u0012\u0004\u0012\u00020\u0001\u0018\u00010\u0000H\n"}, d2 = {"", "Landroidx/compose/runtime/tooling/CompositionData;", "<anonymous>"}, k = 3, mv = {1, 5, 1})
+final class InspectionTablesKt.LocalInspectionTables.1 extends Lambda implements Function0 {
+    public static final InspectionTablesKt.LocalInspectionTables.1 INSTANCE;
+
+    static {
+        InspectionTablesKt.LocalInspectionTables.1.INSTANCE = new InspectionTablesKt.LocalInspectionTables.1();
+    }
+
+    InspectionTablesKt.LocalInspectionTables.1() {
+        super(0);
+    }
+
+    @Override  // kotlin.jvm.functions.Function0
+    public Object invoke() {
+        return null;
+    }
+
+    public final Set invoke() [...] // Inlined contents
+}
+

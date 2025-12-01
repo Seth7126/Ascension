@@ -1,0 +1,5 @@
+// 函数: _ZN12ascension_ai24AIHandlerThread_ShutdownEv
+// 地址: 0xb4c4c
+// 来自: E:/torrent/Cursor/com.playdekgames.android.Ascension_2.4.17-APK_Award-Mod/lib/armeabi-v7a/libAscensionLib.so.bndb
+
+return ascension_ai::AIHandlerThread_Shutdown() __tailcall

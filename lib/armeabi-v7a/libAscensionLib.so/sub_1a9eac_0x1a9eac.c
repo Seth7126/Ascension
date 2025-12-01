@@ -1,0 +1,5 @@
+// 函数: sub_1a9eac
+// 地址: 0x1a9eac
+// 来自: E:/torrent/Cursor/com.playdekgames.android.Ascension_2.4.17-APK_Award-Mod/lib/armeabi-v7a/libAscensionLib.so.bndb
+
+return __cxa_begin_catch(arg1) __tailcall

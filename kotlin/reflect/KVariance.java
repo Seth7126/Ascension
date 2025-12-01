@@ -1,0 +1,37 @@
+package kotlin.reflect;
+
+import kotlin.Metadata;
+
+// 部分失败：枚举糖化
+// 枚举按原样呈现，而不是糖化为Java 5枚举。
+@Metadata(d1 = {"\u0000\f\n\u0002\u0018\u0002\n\u0002\u0010\u0010\n\u0002\b\u0005\b\u0087\u0001\u0018\u00002\b\u0012\u0004\u0012\u00020\u00000\u0001B\u0007\b\u0002¢\u0006\u0002\u0010\u0002j\u0002\b\u0003j\u0002\b\u0004j\u0002\b\u0005¨\u0006\u0006"}, d2 = {"Lkotlin/reflect/KVariance;", "", "(Ljava/lang/String;I)V", "INVARIANT", "IN", "OUT", "kotlin-stdlib"}, k = 1, mv = {1, 5, 1})
+public final class KVariance extends Enum {
+    private static final KVariance[] $VALUES;
+    public static final enum KVariance IN;
+    public static final enum KVariance INVARIANT;
+    public static final enum KVariance OUT;
+
+    static {
+        KVariance[] arr_kVariance = new KVariance[3];
+        KVariance.INVARIANT = new KVariance("INVARIANT", 0);
+        arr_kVariance[0] = KVariance.INVARIANT;
+        KVariance.IN = new KVariance("IN", 1);
+        arr_kVariance[1] = KVariance.IN;
+        KVariance.OUT = new KVariance("OUT", 2);
+        arr_kVariance[2] = KVariance.OUT;
+        KVariance.$VALUES = arr_kVariance;
+    }
+
+    private KVariance(String s, int v) {
+        super(s, v);
+    }
+
+    public static KVariance valueOf(String s) {
+        return (KVariance)Enum.valueOf(KVariance.class, s);
+    }
+
+    public static KVariance[] values() {
+        return (KVariance[])KVariance.$VALUES.clone();
+    }
+}
+

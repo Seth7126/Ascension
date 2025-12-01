@@ -1,0 +1,30 @@
+package androidx.compose.ui.text;
+
+import kotlin.Metadata;
+import kotlin.jvm.functions.Function1;
+import kotlin.jvm.internal.Intrinsics;
+import kotlin.jvm.internal.Lambda;
+
+@Metadata(d1 = {"\u0000\f\n\u0002\u0010\u0000\n\u0000\n\u0002\u0018\u0002\n\u0000\u0010\u0003\u001A\u0004\u0018\u00010\u00022\u0006\u0010\u0001\u001A\u00020\u0000H\n"}, d2 = {"", "it", "Landroidx/compose/ui/text/VerbatimTtsAnnotation;", "<anonymous>"}, k = 3, mv = {1, 5, 1})
+final class SaversKt.VerbatimTtsAnnotationSaver.2 extends Lambda implements Function1 {
+    public static final SaversKt.VerbatimTtsAnnotationSaver.2 INSTANCE;
+
+    static {
+        SaversKt.VerbatimTtsAnnotationSaver.2.INSTANCE = new SaversKt.VerbatimTtsAnnotationSaver.2();
+    }
+
+    SaversKt.VerbatimTtsAnnotationSaver.2() {
+        super(1);
+    }
+
+    public final VerbatimTtsAnnotation invoke(Object object0) {
+        Intrinsics.checkNotNullParameter(object0, "it");
+        return new VerbatimTtsAnnotation(((String)object0));
+    }
+
+    @Override  // kotlin.jvm.functions.Function1
+    public Object invoke(Object object0) {
+        return this.invoke(object0);
+    }
+}
+

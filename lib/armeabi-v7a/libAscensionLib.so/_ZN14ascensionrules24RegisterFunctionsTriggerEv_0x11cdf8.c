@@ -1,0 +1,213 @@
+// 函数: _ZN14ascensionrules24RegisterFunctionsTriggerEv
+// 地址: 0x11cdf8
+// 来自: E:/torrent/Cursor/com.playdekgames.android.Ascension_2.4.17-APK_Award-Mod/lib/armeabi-v7a/libAscensionLib.so.bndb
+
+ascension::AddEffectTriggerFunc("TriggerGainRunes", ascensionrules::TriggerGainRunes)
+ascension::AddEffectTriggerFunc("TriggerGainRunesForDefeatedMonsterPowerCost", 
+    ascensionrules::TriggerGainRunesForDefeatedMonsterPowerCost)
+ascension::AddEffectTriggerFunc("TriggerGainRunesForDefeatedMonsterPowerCost", 
+    ascensionrules::TriggerGainRunesForDefeatedMonsterPowerCost)
+ascension::AddEffectTriggerFunc("TriggerDoubleCurrentTurnRunes", 
+    ascensionrules::TriggerDoubleCurrentTurnRunes)
+ascension::AddEffectTriggerFunc("TriggerGainPower", ascensionrules::TriggerGainPower)
+ascension::AddEffectTriggerFunc("TriggerGainPowerForAcquiredCardRuneCost", 
+    ascensionrules::TriggerGainPowerForAcquiredCardRuneCost)
+ascension::AddEffectTriggerFunc("TriggerCurrentEventGainPower", 
+    ascensionrules::TriggerCurrentEventGainPower)
+ascension::AddEffectTriggerFunc("TriggerDoubleCurrentTurnPower", 
+    ascensionrules::TriggerDoubleCurrentTurnPower)
+ascension::AddEffectTriggerFunc("TriggerGainLife", ascensionrules::TriggerGainLife)
+ascension::AddEffectTriggerFunc("TriggerGainDeath", ascensionrules::TriggerGainDeath)
+ascension::AddEffectTriggerFunc("TriggerGainHonor", ascensionrules::TriggerGainHonor)
+ascension::AddEffectTriggerFunc("TriggerGainHonorForAcquiredCard", 
+    ascensionrules::TriggerGainHonorForAcquiredCard)
+ascension::AddEffectTriggerFunc("TriggerGainHonorForAcquiredCardIfThisHasntBeenUsed", 
+    ascensionrules::TriggerGainHonorForAcquiredCardIfThisHasntBeenUsed)
+ascension::AddEffectTriggerFunc("TriggerGainInsight", ascensionrules::TriggerGainInsight)
+ascension::AddEffectTriggerFunc("TriggerGainInsightForAcquiredCard", 
+    ascensionrules::TriggerGainInsightForAcquiredCard)
+ascension::AddEffectTriggerFunc("TriggerHonorGainMultiply", 
+    ascensionrules::TriggerHonorGainMultiply)
+ascension::AddEffectTriggerFunc("TriggerBerserkerFrenzy", ascensionrules::TriggerBerserkerFrenzy)
+ascension::AddEffectTriggerFunc("TriggerStealHonorFromEachOpponent", 
+    ascensionrules::TriggerStealHonorFromEachOpponent)
+ascension::AddEffectTriggerFunc("TriggerConstructGainRunes", 
+    ascensionrules::TriggerConstructGainRunes)
+ascension::AddEffectTriggerFunc("TriggerConstructGainRunesForEachMechanaConstructInPlay", 
+    ascensionrules::TriggerConstructGainRunesForEachMechanaConstructInPlay)
+ascension::AddEffectTriggerFunc("TriggerConstructGainPower", 
+    ascensionrules::TriggerConstructGainPower)
+ascension::AddEffectTriggerFunc("TriggerConstructGainPowerForEachMechanaConstructInPlay", 
+    ascensionrules::TriggerConstructGainPowerForEachMechanaConstructInPlay)
+ascension::AddEffectTriggerFunc("TriggerConstructGainPowerIfThisHasntBeenUsed", 
+    ascensionrules::TriggerConstructGainPowerIfThisHasntBeenUsed)
+ascension::AddEffectTriggerFunc("TriggerConstructGainHonor", 
+    ascensionrules::TriggerConstructGainHonor)
+ascension::AddEffectTriggerFunc("TriggerConstructGainHonorForEachMechanaConstructInPlay", 
+    ascensionrules::TriggerConstructGainHonorForEachMechanaConstructInPlay)
+ascension::AddEffectTriggerFunc("TriggerConstructGainHonorIfThisHasntBeenUsed", 
+    ascensionrules::TriggerConstructGainHonorIfThisHasntBeenUsed)
+ascension::AddEffectTriggerFunc("TriggerConstructGainEnergy", 
+    ascensionrules::TriggerConstructGainEnergy)
+ascension::AddEffectTriggerFunc("TriggerOwnerGainReputation", 
+    ascensionrules::TriggerOwnerGainReputation)
+ascension::AddEffectTriggerFunc("TriggerConstructGainInsight", 
+    ascensionrules::TriggerConstructGainInsight)
+ascension::AddEffectTriggerFunc("TriggerConstructGainInsightForEachMechanaConstructInPlay", 
+    ascensionrules::TriggerConstructGainInsightForEachMechanaConstructInPlay)
+ascension::AddEffectTriggerFunc("TriggerReplaceSeventhCard", 
+    ascensionrules::TriggerReplaceSeventhCard)
+ascension::AddEffectTriggerFunc("TriggerDefeatPlayerGainHonor", 
+    ascensionrules::TriggerDefeatPlayerGainHonor)
+ascension::AddEffectTriggerFunc("TriggerEffectPlayerDrawCards", 
+    ascensionrules::TriggerEffectPlayerDrawCards)
+ascension::AddEffectTriggerFunc("TriggerEffectPlayerGainsSoulGems", 
+    ascensionrules::TriggerEffectPlayerGainsSoulGems)
+ascension::AddEffectTriggerFunc("TriggerConstructOwnerGainSoulGem", 
+    ascensionrules::TriggerConstructOwnerGainSoulGem)
+ascension::AddEffectTriggerFunc("TriggerTrophyOwnerGainSoulGem", 
+    ascensionrules::TriggerTrophyOwnerGainSoulGem)
+ascension::AddEffectTriggerFunc("TriggerGainEnergyForCardsUnderTrophy", 
+    ascensionrules::TriggerGainEnergyForCardsUnderTrophy)
+ascension::AddEffectTriggerFunc("TriggerTrophyOwnerGainHonor", 
+    ascensionrules::TriggerTrophyOwnerGainHonor)
+ascension::AddEffectTriggerFunc("TriggerResetTrophyEffectData", 
+    ascensionrules::TriggerResetTrophyEffectData)
+ascension::AddEffectTriggerFunc("TriggerConstructSetEffectDataToZero", 
+    ascensionrules::TriggerConstructSetEffectDataToZero)
+ascension::AddEffectTriggerFunc("TriggerCardInPlaySetEffectDataToZero", 
+    ascensionrules::TriggerCardInPlaySetEffectDataToZero)
+ascension::AddEffectTriggerFunc("TriggerConstructSetEffectData0ToRandom", 
+    ascensionrules::TriggerConstructSetEffectData0ToRandom)
+ascension::AddEffectTriggerFunc("TriggerIncrementConstructEffectData", 
+    ascensionrules::TriggerIncrementConstructEffectData)
+ascension::AddEffectTriggerFunc("TriggerDecrementConstructEffectData", 
+    ascensionrules::TriggerDecrementConstructEffectData)
+ascension::AddEffectTriggerFunc("TriggerEffectPutThisCardInHandAtEndOfTurn", 
+    ascensionrules::TriggerEffectPutThisCardInHandAtEndOfTurn)
+ascension::AddEffectTriggerFunc("TriggerSetThisHasBeenUsedThisTurn", 
+    ascensionrules::TriggerSetThisHasBeenUsedThisTurn)
+ascension::AddEffectTriggerFunc("TriggerConstructOwnerDrawCards", 
+    ascensionrules::TriggerConstructOwnerDrawCards)
+ascension::AddEffectTriggerFunc("TriggerConstructOwnerDrawCardsForEachMechanaConstructInPlay", 
+    ascensionrules::TriggerConstructOwnerDrawCardsForEachMechanaConstructInPlay)
+ascension::AddEffectTriggerFunc("TriggerConstructOwnerDrawCardsIfThisHasntBeenUsed", 
+    ascensionrules::TriggerConstructOwnerDrawCardsIfThisHasntBeenUsed)
+ascension::AddEffectTriggerFunc("TriggerReturnThisConstructToYourHand", 
+    ascensionrules::TriggerReturnThisConstructToYourHand)
+ascension::AddEffectTriggerFunc("TriggerMayRecoverCardFromDiscardIntoHand", 
+    ascensionrules::TriggerMayRecoverCardFromDiscardIntoHand)
+ascension::AddEffectTriggerFunc("TriggerAddConstructFromDiscardIntoHand", 
+    ascensionrules::TriggerAddConstructFromDiscardIntoHand)
+ascension::AddEffectTriggerFunc("TriggerPutEffectSourceFromDiscardIntoHand", 
+    ascensionrules::TriggerPutEffectSourceFromDiscardIntoHand)
+ascension::AddEffectTriggerFunc("TriggerRecoverDiscardedCard", 
+    ascensionrules::TriggerRecoverDiscardedCard)
+ascension::AddEffectTriggerFunc("TriggerMayPutConstructIntoPlay", 
+    ascensionrules::TriggerMayPutConstructIntoPlay)
+ascension::AddEffectTriggerFunc("TriggerMayDiscardFanaticTrophyToSaveDestroyedConstruct", 
+    ascensionrules::TriggerMayDiscardFanaticTrophyToSaveDestroyedConstruct)
+ascension::AddEffectTriggerFunc("TriggerEffectPlayerBanishFromCenterRow", 
+    ascensionrules::TriggerEffectPlayerBanishFromCenterRow)
+ascension::AddEffectTriggerFunc("TriggerEffectPlayerBanishFromDiscard", 
+    ascensionrules::TriggerEffectPlayerBanishFromDiscard)
+ascension::AddEffectTriggerFunc("TriggerEffectPlayerBanishFromHandOrDiscard", 
+    ascensionrules::TriggerEffectPlayerBanishFromHandOrDiscard)
+ascension::AddEffectTriggerFunc("TriggerConstructOwnerBanishFromHandOrDiscard", 
+    ascensionrules::TriggerConstructOwnerBanishFromHandOrDiscard)
+ascension::AddEffectTriggerFunc("TriggerAcquirePlayerBanishFromHandOrDiscard", 
+    ascensionrules::TriggerAcquirePlayerBanishFromHandOrDiscard)
+ascension::AddEffectTriggerFunc("TriggerPlayedHeroIsLifeboundUntilEndOfTurn", 
+    ascensionrules::TriggerPlayedHeroIsLifeboundUntilEndOfTurn)
+ascension::AddEffectTriggerFunc("YouMayAcquireHeroWithCostLessThanDefeatedMonster", 
+    ascensionrules::YouMayAcquireHeroWithCostLessThanDefeatedMonster)
+ascension::AddEffectTriggerFunc("TriggerGainDefeatedMonsterReward", 
+    ascensionrules::TriggerGainDefeatedMonsterReward)
+ascension::AddEffectTriggerFunc("TriggerStarlightSanctum", ascensionrules::TriggerStarlightSanctum)
+ascension::AddEffectTriggerFunc("TriggerEffectPlayerMayAcquireHeroToTopOfDeck", 
+    ascensionrules::TriggerEffectPlayerMayAcquireHeroToTopOfDeck)
+ascension::AddEffectTriggerFunc("TriggerAcquirePlayerMayDrawCards", 
+    ascensionrules::TriggerAcquirePlayerMayDrawCards)
+ascension::AddEffectTriggerFunc("TriggerAcquirePlayerMayAcquireAnyCenterRowConstruct", 
+    ascensionrules::TriggerAcquirePlayerMayAcquireAnyCenterRowConstruct)
+ascension::AddEffectTriggerFunc("TriggerEffectPlayerChooseFactionForPlayedCard", 
+    ascensionrules::TriggerEffectPlayerChooseFactionForPlayedCard)
+ascension::AddEffectTriggerFunc("TriggerAddBanishFromHandToUpgradeCount", 
+    ascensionrules::TriggerAddBanishFromHandToUpgradeCount)
+ascension::AddEffectTriggerFunc("TriggerAcquireOrDefeatTopOfCenterDeck", 
+    ascensionrules::TriggerAcquireOrDefeatTopOfCenterDeck)
+ascension::AddEffectTriggerFunc("TriggerDefeatMonsterWithLessPower", 
+    ascensionrules::TriggerDefeatMonsterWithLessPower)
+ascension::AddEffectTriggerFunc("TriggerMultiUnite", ascensionrules::TriggerMultiUnite)
+ascension::AddEffectTriggerFunc("TriggerMarkAcquireEventForRallyEffectData", 
+    ascensionrules::TriggerMarkAcquireEventForRallyEffectData)
+ascension::AddEffectTriggerFunc("TriggerMarkAcquireEventForRallyEnlightened", 
+    ascensionrules::TriggerMarkAcquireEventForRallyEnlightened)
+ascension::AddEffectTriggerFunc("TriggerMarkAcquireEventForRallyEnlightenedIfReputation", 
+    ascensionrules::TriggerMarkAcquireEventForRallyEnlightenedIfReputation)
+ascension::AddEffectTriggerFunc("TriggerMarkAcquireEventForRallyLifebound", 
+    ascensionrules::TriggerMarkAcquireEventForRallyLifebound)
+ascension::AddEffectTriggerFunc("TriggerMarkAcquireEventForRallyLifeboundIfReputation", 
+    ascensionrules::TriggerMarkAcquireEventForRallyLifeboundIfReputation)
+ascension::AddEffectTriggerFunc("TriggerMarkAcquireEventForRallyMechana", 
+    ascensionrules::TriggerMarkAcquireEventForRallyMechana)
+ascension::AddEffectTriggerFunc("TriggerMarkAcquireEventForRallyMechanaIfReputation", 
+    ascensionrules::TriggerMarkAcquireEventForRallyMechanaIfReputation)
+ascension::AddEffectTriggerFunc("TriggerMarkAcquireEventForRallyVoid", 
+    ascensionrules::TriggerMarkAcquireEventForRallyVoid)
+ascension::AddEffectTriggerFunc("TriggerMarkAcquireEventForRallyVoidIfReputation", 
+    ascensionrules::TriggerMarkAcquireEventForRallyVoidIfReputation)
+ascension::AddEffectTriggerFunc("TriggerMarkDefeatEventForRallyEnlightened", 
+    ascensionrules::TriggerMarkDefeatEventForRallyEnlightened)
+ascension::AddEffectTriggerFunc("TriggerMarkDefeatEventForRallyEnlightenedIfReputation", 
+    ascensionrules::TriggerMarkDefeatEventForRallyEnlightenedIfReputation)
+ascension::AddEffectTriggerFunc("TriggerMarkDefeatEventForRallyLifebound", 
+    ascensionrules::TriggerMarkDefeatEventForRallyLifebound)
+ascension::AddEffectTriggerFunc("TriggerMarkDefeatEventForRallyLifeboundIfReputation", 
+    ascensionrules::TriggerMarkDefeatEventForRallyLifeboundIfReputation)
+ascension::AddEffectTriggerFunc("TriggerMarkDefeatEventForRallyMechana", 
+    ascensionrules::TriggerMarkDefeatEventForRallyMechana)
+ascension::AddEffectTriggerFunc("TriggerMarkDefeatEventForRallyMechanaIfReputation", 
+    ascensionrules::TriggerMarkDefeatEventForRallyMechanaIfReputation)
+ascension::AddEffectTriggerFunc("TriggerMarkDefeatEventForRallyVoid", 
+    ascensionrules::TriggerMarkDefeatEventForRallyVoid)
+ascension::AddEffectTriggerFunc("TriggerMarkDefeatEventForRallyVoidIfReputation", 
+    ascensionrules::TriggerMarkDefeatEventForRallyVoidIfReputation)
+ascension::AddEffectTriggerFunc("TriggerOwnerAcquireTransformCardIfReputationExact", 
+    ascensionrules::TriggerOwnerAcquireTransformCardIfReputationExact)
+ascension::AddEffectTriggerFunc("TriggerPushResolveEffectFromPlayedCard", 
+    ascensionrules::TriggerPushResolveEffectFromPlayedCard)
+ascension::AddEffectTriggerFunc("TriggerPopResolveEffectFromPlayedCard", 
+    ascensionrules::TriggerPopResolveEffectFromPlayedCard)
+ascension::AddEffectTriggerFunc("TriggerPushResolveEffectFromCardsInPlay", 
+    ascensionrules::TriggerPushResolveEffectFromCardsInPlay)
+ascension::AddEffectTriggerFunc("TriggerPopResolveEffectFromCardsInPlay", 
+    ascensionrules::TriggerPopResolveEffectFromCardsInPlay)
+ascension::AddEffectTriggerFunc("TriggerPushResolveEffectFromAcquiredCard", 
+    ascensionrules::TriggerPushResolveEffectFromAcquiredCard)
+ascension::AddEffectTriggerFunc("TriggerPopResolveEffectFromAcquiredCard", 
+    ascensionrules::TriggerPopResolveEffectFromAcquiredCard)
+ascension::AddEffectTriggerFunc("TriggerPushResolvingEvent", 
+    ascensionrules::TriggerPushResolvingEvent)
+ascension::AddEffectTriggerFunc("TriggerPopResolvingEvent", 
+    ascensionrules::TriggerPopResolvingEvent)
+ascension::AddEffectTriggerFunc("TriggerPushResolvingConstructIfEffectDataIs0", 
+    ascensionrules::TriggerPushResolvingConstructIfEffectDataIs0)
+ascension::AddEffectTriggerFunc("TriggerPauseForAllAnimation", 
+    ascensionrules::TriggerPauseForAllAnimation)
+ascension::AddEffectTriggerFunc("TriggerAcquirePortalFromCenterRow", 
+    ascensionrules::TriggerAcquirePortalFromCenterRow)
+ascension::AddEffectTriggerFunc("TriggerTransformThisConstructIntoRandomMechanaIfEffectDataIs0", 
+    ascensionrules::TriggerTransformThisConstructIntoRandomMechanaIfEffectDataIs0)
+ascension::AddEffectTriggerFunc("TriggerEffectPlayerAddCardsToDreamscape", 
+    ascensionrules::TriggerEffectPlayerAddCardsToDreamscape)
+ascension::AddEffectTriggerFunc("TriggerConstructOwnerAddCardsToDreamscape", 
+    ascensionrules::TriggerConstructOwnerAddCardsToDreamscape)
+ascension::AddEffectTriggerFunc("TriggerSendPlayHeroEvent", 
+    ascensionrules::TriggerSendPlayHeroEvent)
+ascension::AddEffectTriggerFunc("TriggerRemovePlayedCardEffectActive", 
+    ascensionrules::TriggerRemovePlayedCardEffectActive)
+ascension::AddEffectTriggerFunc("TriggerConstructChooseFromEffectList", 
+    ascensionrules::TriggerConstructChooseFromEffectList)
+return ascension::AddEffectTriggerFunc("TriggerCopyEventPlayHero", 
+    ascensionrules::TriggerCopyEventPlayHero) __tailcall

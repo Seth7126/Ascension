@@ -1,0 +1,73 @@
+// 函数: _ZN14ascensionrules24CStateBanishAllCenterRowC1EPN9ascension7CPlayerEb
+// 地址: 0x13a340
+// 来自: E:/torrent/Cursor/com.playdekgames.android.Ascension_2.4.17-APK_Award-Mod/lib/armeabi-v7a/libAscensionLib.so.bndb
+
+void** result = CStateList::CStateList()
+result[0xe] = arg2
+*result = _vtable_for_ascensionrules::CStateBanishAllCenterRow + 8
+char entry_r2
+result[0xf].b = entry_r2
+result[0x10] = _vtable_for_ascension::CEventEnterCenterRow + 8
+result[0x11] = 0x11
+result[0x12] = 0
+result[0x23] = 0
+result[0x24] = 0
+result[0x25] = 0xffffffff
+result[0x26] = 0
+result[0x27] = 0
+result[0x28] = 0
+result[0x31] = _vtable_for_ascension::CEventEnterCenterRow + 8
+result[0x32] = 0x11
+result[0x33] = 0
+result[0x44] = 0
+result[0x45] = 0
+result[0x46] = 0xffffffff
+result[0x47] = 0
+result[0x48] = 0
+result[0x49] = 0
+result[0x52] = _vtable_for_ascension::CEventEnterCenterRow + 8
+result[0x53] = 0x11
+result[0x54] = 0
+result[0x65] = 0
+result[0x66] = 0
+result[0x67] = 0xffffffff
+result[0x68] = 0
+result[0x69] = 0
+result[0x6a] = 0
+result[0x73] = _vtable_for_ascension::CEventEnterCenterRow + 8
+result[0x74] = 0x11
+result[0x75] = 0
+result[0x86] = 0
+result[0x87] = 0
+result[0x88] = 0xffffffff
+result[0x89] = 0
+result[0x8a] = 0
+result[0x8b] = 0
+result[0x94] = _vtable_for_ascension::CEventEnterCenterRow + 8
+result[0x95] = 0x11
+result[0x96] = 0
+result[0xa7] = 0
+result[0xa8] = 0
+result[0xa9] = 0xffffffff
+result[0xaa] = 0
+result[0xab] = 0
+result[0xac] = 0
+result[0xb5] = _vtable_for_ascension::CEventEnterCenterRow + 8
+result[0xb6] = 0x11
+result[0xb7] = 0
+result[0xc8] = 0
+result[0xc9] = 0
+result[0xca] = 0xffffffff
+result[0xcb] = 0
+result[0xcc] = 0
+result[0xcd] = 0
+result[0xd6] = _vtable_for_ascension::CEventEnterCenterRow + 8
+result[0xd7] = 0x11
+result[0xd8] = 0
+result[0xe9] = 0
+result[0xea] = 0
+result[0xeb] = 0xffffffff
+result[0xec] = 0
+result[0xed] = 0
+result[0xee] = 0
+return result

@@ -1,0 +1,5 @@
+// 函数: sub_d807c
+// 地址: 0xd807c
+// 来自: E:/torrent/Cursor/com.playdekgames.android.Ascension_2.4.17-APK_Award-Mod/lib/armeabi-v7a/libAscensionLib.so.bndb
+
+return sub_d7eb4(arg1, arg2, strlen(arg2)) __tailcall
